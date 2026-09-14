@@ -110,6 +110,7 @@ The backend then prepares the system prompt together with the user query, the re
 The LLM generates the natural-language response, which is returned to the backend and then displayed to the user through the frontend.
 
 Throughout the process, security controls and logging/monitoring are used to make sure access is controlled and the chatbot is operating correctly.
+
 ---
 
 ## Q3. Please explain vector databases
