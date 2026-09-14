@@ -36,9 +36,9 @@ ML-based authentication anomaly detection — Isolation Forest model, a 12-rule 
 
 ## Q5. Most Complex Database Code
 
-[Authentication Anomaly Detection and Risk Scoring Model](https://github.com/jaden-mas1010/Design-of-an-Authentication-Anomaly-Detection-and-Risk-Scoring-Model-)
+[Employee Device & Login Analysis — SQL Project](https://github.com/jaden-mas1010/SQL-PROJECT)
 
-The SQLite layer in the AADRS project — event schema, indexed lookups for anomaly scoring, and the query layer feeding the risk scorer.
+SQL-based employee device and login analysis using aggregations, `GROUP BY`, `HAVING`, `INNER JOIN`, `LEFT JOIN`, window functions with `PARTITION BY`, and queries for identifying anomalous login activity.
 
 ---
 
@@ -97,8 +97,47 @@ Security and guardrails help make sure the user only gets access to the informat
 
 Logging and monitoring help us understand how the chatbot is performing and identify if something goes wrong. The system can monitor things like response time, failed requests, token usage, API or tool errors and LLM responses.
 
+### High-Level Approach
+
+At a high level, the chatbot works by receiving the user's query through the frontend and sending it to the backend, which acts as the main orchestrator.
+
+The backend manages the conversation context, checks authentication and authorization, and decides whether the request can be answered directly by the LLM or whether additional information is required through RAG or an external API/tool.
+
+If RAG is required, the query is converted into an embedding and used to search a vector database for relevant document chunks. If live information or an action is required, the backend can call the appropriate external API or tool after validating the user's permissions.
+
+The backend then prepares the system prompt together with the user query, the relevant chat history and any procured context, and sends this to the LLM.
+
+The LLM generates the natural-language response, which is returned to the backend and then displayed to the user through the frontend.
+
+Throughout the process, security controls and logging/monitoring are used to make sure access is controlled and the chatbot is operating correctly.
 ---
 
 ## Q3. Please explain vector databases
 
-*To be completed.*
+### What is a Vector Database?
+...
+
+### How Vector Search Works
+...
+
+### Hypothetical Problem
+...
+
+### Options Considered
+...
+
+### Database Comparison
+
+...
+
+### My Selection
+...
+
+### Why I Selected It
+...
+
+---
+
+## Repository Files
+
+...
