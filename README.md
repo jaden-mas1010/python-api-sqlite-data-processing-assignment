@@ -231,19 +231,3 @@ If the chatbot grows later and has to handle a much larger number of documents o
 
 
 
-## Repository Files
-
-### Repository Files
-
-The Python implementations for Problem Statement 1 are available in the repository below:
-
-**GitHub Repository:**  
-https://github.com/jaden-mas1010/python-api-sqlite-data-processing-assignment
-
-Files:
-- `task1_books_api_sqlite.py` - API data retrieval and SQLite storage
-- `task2_student_scores.py` - Student score processing and visualization
-- `task3_csv_to_sqlite.py` - CSV data import into SQLite
-- `users.csv` - Sample CSV data used for Task 3
-
-...
