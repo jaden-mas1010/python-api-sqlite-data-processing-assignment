@@ -8,9 +8,7 @@ except requests.exceptions.RequestException:
     print("API request failed")
     exit()
 
-print(response.status_code)
 data=response.json() 
-print(data.keys())
 connection=sqlite3.connect('book.db')
 cursor=connection.cursor()
 cursor.execute("""CREATE TABLE IF NOT EXISTS books (id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, author TEXT,year INTEGER)""")
