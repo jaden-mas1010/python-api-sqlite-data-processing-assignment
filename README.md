@@ -33,6 +33,8 @@ Write a Python script that reads data from a CSV file containing user informatio
 
 Python CSV module was used to read the user information from user.csv I made using DictReader.The code creates a SQLite database and store each user's name and email using SQL queries which after inserting , it queries it and displays the stored data.
 As the CSV file exist and the data is duplicated after each run , I made  sure the records are cleared bore every insert.
+
+
 ---
 
 ## Q4. Most Complex Python Code
