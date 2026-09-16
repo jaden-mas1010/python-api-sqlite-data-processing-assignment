@@ -68,7 +68,7 @@ The more advanced queries use window functions and grouped data to compare login
 
 I rated myself B in LLMs because I understand the main concepts and have worked with LLM APIs and AI-assisted applications, but I would still need guidance for more advanced areas such as fine-tuning and production-scale LLM systems.
 
-I rated myself C in Deep Learning because I understand the basic concepts of neural networks as it and Deep Learning was part of my MSc module, but I have limited practical experience building and training deep learning models myself.
+I rated myself C in Deep Learning because I understand the basic concepts of neural networks as  Deep Learning was part of my MSc module, but I have limited practical experience building and training deep learning models myself.
 
 For AI and ML, I rated myself B because I have practical experience applying ML through my authentication anomaly detection project, where I used Isolation Forest and hav alongside a rule-based risk scoring approach and a coursework for my master on a fraudulent credit card detection project using Random Forest. I can work with these concepts and implement them, but I am still developing deeper experience with model selection, tuning and larger production ML systems.
 
