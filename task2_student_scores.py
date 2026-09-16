@@ -32,8 +32,8 @@ for student in students:
 
 plt.figure(figsize=(10, 6))
 plt.barh(names,scores)
-plt.xlabel("Students")
-plt.ylabel("Scores")
+plt.xlabel("Score")
+plt.ylabel("Student")
 plt.title("Student Scores")
 plt.show()
 
