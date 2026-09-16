@@ -16,9 +16,11 @@ I used an Open Library API to fetch the data in JSON Format .The code retrieves 
 Given a dataset containing information about students' test scores, fetch the data from an API, calculate the average score, and create a bar chart to visualize the data.
 
 **Implementation:** [`task2_student_scores.py`](./task2_student_scores.py)
+
 I fetched student score data from a REST API and took the first 10 student so the displayed chart is easy to read from the top for the example .The code retrieves the name and maths score, take its average score and displays each students using a horizontal bar chart.I used an error handling same like Q1 in this also.
 API used : Sling Academy Student Score dataset
 Visual: Matplotlib horizontal bar chart
+
 ---
 
 ## Q3. CSV Data Import to a Database
