@@ -7,6 +7,7 @@ You are tasked with fetching data from an external REST API, storing it in a loc
 **Implementation:** [`task1_books_api_sqlite.py`](./task1_books_api_sqlite.py)
 
 I used an Open Library API to fetch the data in JSON Format .The code retrieves the title,author and publication year and store them in SQLite database using queries. After inserting the data it extracts them from the database and displays them. I also have added an API error handling by including a 10 sec timeout with a status check. I made sure records are cleared before inserting the latest API response as it kept on appending after every new run. 
+
 ---
 
 ## Q2. Data Processing and Visualization
